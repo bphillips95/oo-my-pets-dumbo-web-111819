@@ -44,8 +44,8 @@ end
    @@all = []
  end 
  def sell_pets 
-    self.cats.each {|cat| cat.mood = 'nervous'}
-     self.dogs.each {|dog| dog.mood = 'nervous'}
-     Cat.
+    pets = self.dogs + self.cats
+    pets.each {|pet| pet.mood = 'nervous'}
+    
 end
 end
