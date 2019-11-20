@@ -50,9 +50,8 @@ end
         pet.owner = nil
     end
 end
-def list_pets 
-   pets = self.dogs + self.cats
- self.pets.each 
+
+ self.dogs.each {|dog| 
 
 
 end
