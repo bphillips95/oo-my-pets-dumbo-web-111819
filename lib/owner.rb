@@ -1,6 +1,6 @@
 require_relative 'dog.rb'
 require_relative 'cat.rb'
-require 'pp'
+require 'pry'
 class Owner
  attr_reader :name, :species
  
