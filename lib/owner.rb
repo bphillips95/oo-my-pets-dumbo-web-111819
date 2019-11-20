@@ -24,7 +24,7 @@ class Owner
     Dog.new(name,self)
   end 
   def walk_dogs
-    self.dogs.all = 'happy'
+    self.dogs.each {dog| = 'happy'
   end
  def self.count 
   @@all.size
