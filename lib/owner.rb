@@ -51,8 +51,8 @@ end
     end
 end
 def list_pets 
-  
-
+   pets = self.dogs + self.cats
+ self.pets.each 
 
 
 end
