@@ -11,7 +11,7 @@ class Owner
    @@all << self 
   end
   def cats 
-  
+   self.Cats.all
 end 
 
  def self.count 
