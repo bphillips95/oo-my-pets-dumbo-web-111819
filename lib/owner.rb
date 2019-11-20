@@ -48,6 +48,6 @@ end
     pets.each do |pet|  
         pet.mood = 'nervous'
         pets.owner = nil
-    
+    end
 end
 end
