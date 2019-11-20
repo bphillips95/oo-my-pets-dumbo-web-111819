@@ -13,6 +13,7 @@ class Owner
   def cats 
     Cats.all.each do | names|
       
+      
 
 end 
 
