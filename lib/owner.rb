@@ -50,8 +50,8 @@ end
         pet.owner = nil
     end
 end
-
- self.dogs.each {|dog| 
+def
+"I have #{@owner.dogs.count}dog(s), and #{@owner.cats.count} cat(s)."
 
 
 end
