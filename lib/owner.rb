@@ -11,8 +11,9 @@ class Owner
    @@all << self 
   end
   def cats 
-    Cats.all 
-  binding.pry
+    Cats.all.each do | names|
+      
+
 end 
 
  def self.count 
