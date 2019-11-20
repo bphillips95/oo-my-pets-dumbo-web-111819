@@ -10,10 +10,9 @@ class Owner
    @species = species 
    @@all << self 
   end
-  def cats 
-    Cats.all.each
-      
-end 
+   def cats
+    Cat.all.select{|cat| cat.owner == self}
+  end
 
  def self.count 
   @@all.size
