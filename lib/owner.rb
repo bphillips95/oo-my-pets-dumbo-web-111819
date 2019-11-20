@@ -43,4 +43,6 @@ end
  def self.reset_all 
    @@all = []
  end 
+ def sell_pets 
+   
 end
