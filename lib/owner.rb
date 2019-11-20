@@ -24,7 +24,7 @@ class Owner
     Dog.new(name,self)
   end 
   def walk_dogs
-    Dog.all.mood = 'happy'
+    self.dog.all = 'happy'
   end
  def self.count 
   @@all.size
