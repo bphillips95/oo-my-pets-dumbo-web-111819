@@ -11,12 +11,8 @@ class Owner
    @@all << self 
   end
   def cats 
-    Cats.all.each do | names|
-      next unless == name 
+    Cats.all.each
       
-      
-      
-
 end 
 
  def self.count 
