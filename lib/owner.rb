@@ -11,7 +11,8 @@ class Owner
    @@all << self 
   end
   def cats 
-   self.Cat.all
+    Cats.all 
+  binding.pry
 end 
 
  def self.count 
