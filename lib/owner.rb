@@ -12,7 +12,7 @@ class Owner
   end
   def cats 
     Cats.all.each do | names|
-      next unless == names
+      next unless == name 
       
       
       
